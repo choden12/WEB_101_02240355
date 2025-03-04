@@ -6,7 +6,7 @@
 }
 
 .logo {
-  height: 6em;
+  height: 5em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -46,11 +46,14 @@
 }
 
 header {
-  background-color: #4285f4;
-  color: white;
-  padding: 20px;
+  background-color: #ecc3e3;
+  color: rgb(5, 1, 7);
+  padding: px;
   text-align: center;
+  border-radius: 10px;
   }
+
+
 
 .profiles-container {
   display: flex;

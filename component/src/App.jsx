@@ -8,20 +8,21 @@ function App() {
     {
       id: 1,
       name: "Sangay choden",
-      role: "Frontend Developer",
-      avatar: "pic1.jpg",
+      role: "software Engineering",
+      avatar: "myself.jpg",
       skills: ["React", "JavaScript", "CSS", "HTML"],
-      location: "Thimphu, Bhutan"
+      location: "Phuntsholing, Bhutan"
 
     },
     {
       id: 2,
       name: "Yeshey lhaden",
-      role: "UX Designer",
-      avatar: "pic2.jpg",
+      role: "Software Engineering",
+      avatar: "yeshi.jpg",
       skills: ["Figma", "Wireframing", "Prototyping"],
-      location: "Thimphu, Bhutan"
+      location: "Phuntsholing, Bhutan"
     }
+    
   ];
 
   return (

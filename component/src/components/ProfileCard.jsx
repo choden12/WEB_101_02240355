@@ -11,6 +11,8 @@ function ProfileCard (props) {
     // Toggle details visibility   
     const toggleDetails = () => {
         setShowDetails(!showDetails);
+
+    
     };
     return(
         <div className="profile-card">
@@ -21,7 +23,7 @@ function ProfileCard (props) {
                 <p>{role}</p>
                 {/* Location Field */}
                 <p className="location">
-                {location || "Thimphu , Bhutan"}
+                {location || "Phuntsholing , Bhutan"}
               </p>
             </div>
 
