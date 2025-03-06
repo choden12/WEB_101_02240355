@@ -1,35 +1,75 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react';
+import Header from './Header';
+import ProfileCard from './ProfileCard';
+import EditForm from './EditForm';
+import StatsDashboard from './StatsDashboard';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [user, setUser] = useState({
+    name: 'Mona Lisa',
+    bio: 'Software Engineer',
+    avatar: 'Mr mona lisa',
+    location: 'New York',
+    email: 'mona_lisa@gmail.com',
+    posts: 100,
+    followers: 500,
+    following: 250,
+  });
+
+  const [isEditing, setIsEditing] = useState(false);
+
+  const handleEditClick = () => {
+    setIsEditing(true);
+  };
+
+  const handleUpdateUser = (updatedUser) => {
+    setUser(updatedUser);
+    setIsEditing(false);
+  };
+
+  const handleCancelEdit = () => {
+    setIsEditing(false);
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app">
+      <Header />
+      <div className="dashboard-container">
+        <div className="profile-section">
+          {isEditing ? (
+            <EditForm user={user} onUpdate={handleUpdateUser} onCancel={handleCancelEdit} />
+          ) : (
+            <ProfileCard user={user} onEdit={handleEditClick} />
+          )}
+        </div>
+        <div className="stats-section">
+          <StatsDashboard stats={user} />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+    </div>
+  );
+  return (
+    <Router>
+      <div className="app">
+        <Header />
+        <nav>
+          <Link to="/">Home</Link>
+          <Link to="/profile">Profile</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/profile" element={<ProfileCard user={user} />} />
+          <Route path="/profile/edit" element={<EditForm user={user} />} />
+          <Route path="/stats" element={<StatsDashboard stats={user} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </Router>
+  );
 }
 
-export default App
+export default App;
