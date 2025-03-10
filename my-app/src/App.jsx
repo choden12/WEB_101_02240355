@@ -7,13 +7,13 @@ import './App.css';
 
 function App() {
   const [user, setUser] = useState({
-    name: 'Mona Lisa',
+    name: 'Sangay Chodeyy',
     bio: 'Software Engineer',
-    avatar: 'Mr mona lisa',
-    location: 'New York',
-    email: 'mona_lisa@gmail.com',
-    posts: 100,
-    followers: 500,
+    avatar: 'myself.jpg',
+    location: 'Phuntsholing',
+    email: 'chodeyy@gmail.com',
+    posts: 200,
+    followers: 1000,
     following: 250,
   });
 
