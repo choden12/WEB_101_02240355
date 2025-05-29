@@ -1,4 +1,4 @@
-# TikTok Clone – Infinite Scroll with TanStack Query
+# TikTok Clone – Infinite Scroll with TanStack Query (Tiktok fronted)
 
 This practical enhances the TikTok video feed with **infinite scroll functionality** using **TanStack Query** and **cursor-based pagination**, providing a seamless and efficient content browsing experience.
 

@@ -1,6 +1,5 @@
-# TikTok Web Clone with Next.js
-
-A modern TikTok-style video platform built using Next.js, Tailwind CSS, and React Hook Form, featuring sidebar navigation, video feeds, and user authentication forms.
+# TikTok Web Clone with Next.js (tiktok fronted)
+- A modern TikTok-style video platform built using Next.js, Tailwind CSS, and React Hook Form, featuring sidebar navigation, video feeds, and user authentication forms.
 
 ---
 

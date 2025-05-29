@@ -1,4 +1,4 @@
-# TikTok Clone – Frontend & Backend Integration
+# TikTok Clone – Frontend & Backend Integration (Tiktok fronted)
 
 A full-stack social video sharing app built with Next.js and Express.js, featuring real-time video feeds, user authentication, and social interactions like following and liking videos.
 
