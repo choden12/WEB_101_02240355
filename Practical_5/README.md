@@ -63,5 +63,5 @@ React Hook Form – Form handling for auth & uploads
 - This enhancement improves the user experience by implementing smooth and efficient infinite scrolling. Cursor-based pagination outperforms offset-based methods in terms of consistency, especially when handling dynamic data updates in large-scale applications.
 
 ## Acknowledgments
-
+- I would like to express my heartfelt thanks to my instructor for their continuous guidance throughout this practical. Special appreciation goes to the  our miss for providig a valuable references. I also acknowledge the creators of TanStack Query and the open-source community for providing powerful tools and documentation that made this implementation possible.
 

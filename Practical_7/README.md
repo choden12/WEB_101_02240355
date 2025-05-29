@@ -51,3 +51,4 @@ Vite – Fast dev environment and bundler
 - This project offers a hands-on understanding of implementing multiple charting libraries in a React environment. It illustrates how to transform raw data into insightful and interactive visualizations while maintaining clean and reusable component architecture.
 
 ## Acknowledgments
+- I would like to thank my instructor for providing clear guidance throughout this practical. I also acknowledge the developers and communities behind Recharts and Chart.js for their powerful and user-friendly charting libraries. Their documentation and examples were instrumental in building responsive and interactive visualizations. Special thanks to the repository author for the starter project that laid the groundwork for this implementation.

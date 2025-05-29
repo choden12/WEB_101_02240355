@@ -74,3 +74,4 @@ npm install
 This project connects a modern TikTok-like UI with a full-featured backend using scalable architecture and clean code separation. It’s a great demonstration of building and integrating a video platform from scratch with user engagement features.
 
 ## Acknowledgments
+- I would like to express my sincere gratitude to my instructor for the structured guidance throughout this practical. Special thanks to our miss for providing valuable reference code. I also appreciate the support and collaboration of my classmates during the implementation and testing phases.

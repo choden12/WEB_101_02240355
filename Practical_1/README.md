@@ -62,3 +62,4 @@ Test form validations (empty fields, invalid emails, password checks)
 This project provides a TikTok-inspired frontend interface, showcasing modern web dev concepts like routing, layout design, form handling, and responsive components — a great base for any video-based web app.
 
 ## Acknowledgments
+- I would like to thank my instructor for their guidance and support, and my classmates for their helpful ideas and encouragement. I also appreciate the open-source community and online resources that made learning and building this project easier.

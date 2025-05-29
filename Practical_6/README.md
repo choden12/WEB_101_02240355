@@ -48,6 +48,6 @@ npm install zustand
 - Zustand makes state management intuitive and minimal compared to more complex solutions like Redux or heavy use of React Context. This Todo app is a great starting point to understand centralized state, actions, and persistence in React applications.
 
 ## Acknowledgments
-
+- I would like to express my gratitude to my instructor for guiding me through this practical. I also extend my appreciation to the creators and maintainers of Zustand for providing a lightweight and intuitive state management library. The official documentation and open-source community resources were incredibly helpful in understanding how to implement persistent global state in React applications.
 
 

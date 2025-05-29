@@ -50,3 +50,4 @@ Test full REST operations in a browser-friendly UI.
 - This project is a practical exercise in integrating RESTful API operations into a simple frontend application. It strengthens your understanding of HTTP verbs, API endpoints, asynchronous JavaScript (fetch), and DOM manipulation—all without needing a backend server setup.
 
 ## Acknowledgments
+- I would like to thank my instructor and peers for their valuable guidance and feedback throughout this project. Special appreciation goes to the developers and contributors of the open-source libraries and tools such as Node.js, Express.js, and Morgan, which greatly facilitated the development process. Additionally, I’m grateful for the online resources and communities that provided support and best practices for building robust RESTful APIs.

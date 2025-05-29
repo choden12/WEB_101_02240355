@@ -58,3 +58,4 @@ Axios – HTTP client for progress tracking
 - This project demonstrates how to build a production-ready file upload system in Next.js. It combines client-side validation, interactive UI components, and backend integration using API routes — perfect for applications needing media or document uploads.
 
 ## Acknowledgments
+ - I would like to thank my instructor for the clear guidance throughout this project. I’m also grateful to my classmates for their collaboration and support. Special thanks to the GitHub repository by our miss  for providing helpful reference code and project structure.
