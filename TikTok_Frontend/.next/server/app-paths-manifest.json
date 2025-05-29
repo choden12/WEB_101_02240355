@@ -1,0 +1,6 @@
+{
+  "/explore-users/page": "app/explore-users/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/following/page": "app/following/page.js",
+  "/page": "app/page.js"
+}
